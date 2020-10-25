@@ -1,0 +1,99 @@
+*{
+		box-sizing: border-box;
+		font-family: 'Fira Sans', sans-serif;}
+
+body{background-color: #F9CCCC;}
+
+#logo1{margin-left: 40%;}
+
+
+
+#retour{
+	background-color: #C6C6C6;
+	border-radius: 20px;
+	width: 12%;
+	height: 50px;
+	margin-left: 1%;
+	text-align: center;
+	padding-top: 1%;
+}
+
+#retour a{text-decoration: none;}
+
+@media only screen and (max-width : 2560px) and (min-width: 1440px){
+
+#logo1{margin-left: 45%;}
+
+#retour{
+	background-color: #C6C6C6;
+	border-radius: 20px;
+	width: 12%;
+	height: 50px;
+	margin-left: 1%;
+	text-align: center;
+	padding-top: 0.5%;}
+
+h1{font-size: 100px;}
+}
+
+@media only screen and (max-width : 1440px) and (min-width: 1024px){
+
+#logo1{margin-left: 45%;}
+
+#retour{
+	background-color: #C6C6C6;
+	border-radius: 20px;
+	width: 12%;
+	height: 50px;
+	margin-left: 1%;
+	text-align: center;
+	padding-top: 1%;}}
+
+
+@media only screen and (max-width : 1024px) and (min-width: 768px){
+
+h1{margin-left: 5%;}
+
+#logo1{margin-left: 40%;}
+}
+
+@media only screen and (max-width : 768px) and (min-width: 425px){
+
+h1{margin-left: 0%;}
+
+#logo1{margin-left: 36%;}
+
+#retour{
+	background-color: #C6C6C6;
+	border-radius: 20px;
+	width: 25%;
+	height: 50px;
+	margin-left: 1%;
+	text-align: center;
+	padding-top: 1.9%;}
+}
+
+@media only screen and (max-width : 425px) and (min-width: 375px){
+
+#logo1{margin-left: 20%;}}
+
+@media only screen and (max-width : 375px) and (min-width: 320px){
+
+#retour{
+	background-color: #C6C6C6;
+	border-radius: 20px;
+	width: 30%;
+	height: 50px;
+	margin-left: 1%;
+	text-align: center;
+	padding-top: 1.9%;}
+
+#logo1{margin-left: 15%;}
+
+}
+
+@media only screen and (max-width : 320px){
+
+#logo1{margin-left: 10%;}
+
+}
